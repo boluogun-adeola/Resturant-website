@@ -1,0 +1,67 @@
+
+
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif
+}
+/* subscription and footer style*/
+.subscription{
+    background: url("img/subscribe.jpg");
+    background-size: cover;
+    color: #ffffff;
+    padding: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+.subscription p{
+    font-size: 1.52em;
+}
+form{
+    font-size: 1.5em; 
+}
+#email{
+    width: 27%;
+    opacity: 0.2;
+    padding: 0.5em;
+}
+button{
+    background-color: #f15a29;
+    border:none;
+    margin-left: 1.5em;
+    color: #ffffff;
+    padding: 0.5em;
+
+}
+footer{
+    background-color: #f15a29;
+    color: white;
+    text-align: center;
+    padding-top: 1.75em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.icons img{
+    width: 3.5%;
+    height: 5.5%;
+}
+#menu{
+    color: #000000;
+    padding-bottom: 0.5em;
+
+}
+@media only screen and (max-width:600px){
+    #email{
+        width: 100%;
+    }
+    button{
+        margin-top: 1.5em;
+    }
+
+    .icons img{
+        width: 5%;
+    }
+
+}

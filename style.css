@@ -279,7 +279,6 @@ footer {
   padding: 5px;
   box-shadow: 0 0 2px 1px rgba(21, 22, 22, 0.5);
 }
-<<<<<<< HEAD
 /*testimonial style*/
 .parent-container{
     display: flex;
@@ -460,8 +459,6 @@ footer{
 
 
 }
-=======
-
 .drinks-column-left img:hover {
   box-shadow: 0 0 2px 1px rgba(41, 42, 43, 0.5);
 }
@@ -1006,4 +1003,3 @@ img {
   background-color: rgba(21, 21, 96, 0.9);
   background-blend-mode: multiply;
 }
->>>>>>> dcacc6a3eda8cdb6af1d3d26ee3e5e3f23f8fcba

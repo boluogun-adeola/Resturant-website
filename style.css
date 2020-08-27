@@ -8,7 +8,8 @@ body{
 }
 /* subscription and footer style*/
 .subscription{
-    background: url("img/subscribe.jpg");
+  
+    background: url("./img/Unsplash-sm.jpg");
     background-size: cover;
     color: #ffffff;
     padding: 1.5em;
@@ -313,3 +314,371 @@ width: 100%;
       opacity: 1;
     }
   }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+body #page {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:active {
+    background: none;
+}
+
+img {
+    border: none;
+}
+
+
+/*-------------------------header-styles---------------------------------------*/
+
+#header {
+    background-color: #eeebec;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#header div {
+    margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+    padding: 41px 10px 27px;
+}
+
+#header div a.logo {
+    float: left;
+    margin: 0 0 0 29px;
+    padding: 0;
+    width: auto;
+}
+
+#header div a.logo img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+}
+
+#header div ul {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 17px 0 0;
+    text-align: center;
+    width: 513px;
+}
+
+#header div ul li {
+    display: inline-block;
+    *float: left;
+    /* Needed for IE7 and old versions */
+    margin: 0 35px;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+#header div ul li a {
+    color: #7a6666;
+    font-family: lato-regular-webfont;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#header div ul li.selected a,
+#header div ul li.selected a:hover {
+    color: #cb3362;
+}
+
+#header div ul li a:hover,
+#header div ul li.menu:hover ul li a {
+    color: #7fb12e;
+}
+
+#header div ul li ul li a {
+    color: #cb3362;
+    font-family: lato-regular-webfont;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#header div ul li.menu {
+    min-height: 35px;
+    z-index: 80;
+}
+
+#header div ul li.menu ul {
+    display: block;
+    float: none;
+    left: -99999px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 24px;
+    width: 106px;
+    z-index: 90;
+}
+
+#header div ul li.menu:hover ul.primary,
+#header div ul li.menu ul#selected.primary {
+    left: -30px;
+}
+
+
+/*----------------------------------------body-styles---------------------------------------*/
+
+#body {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#body div.header {
+    background-color: orangered;
+    margin: 0 auto;
+    max-width: none;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 100px;
+}
+
+#body div.header div {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0;
+}
+
+#body div.header div h1 {
+    color: #FFFFFF;
+    font-family: lato-regular-webfont;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+    padding: 28px 0 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#body div.body {
+    background-color: #ebebed;
+    margin: 0;
+    max-width: none;
+    min-height: 249px;
+    overflow: hidden;
+    padding: 0;
+    width: 500%;
+}
+
+#body div.body img {
+    display: block;
+    left: 50%;
+    margin: 0 auto 0 -507px;
+    padding: 0;
+    position: absolute;
+    width: 1014px;
+}
+
+#body div.footer {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 40px 0 110px;
+}
+
+#body div.footer div.sidebar {
+    background-color: #EFEDEE;
+    float: left;
+    margin: 0 10px 0 40px;
+    padding: 36px 0 34px;
+    width: 280px;
+}
+
+#body div.footer div.article {
+    float: left;
+    margin: 0;
+    padding: 0 0 0 30px;
+    width: 560px;
+}
+
+#body div.footer div.sidebar h1 {
+    display: block;
+    line-height: 48px;
+    margin: 0 auto;
+    padding: 0 0 50px;
+    text-align: center;
+    width: 193px;
+}
+
+#body div.footer div.sidebar p {
+    display: block;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    width: 169px;
+}
+
+#body div.footer div p,
+#body div.footer div span {
+    color: #7A6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: left;
+}
+
+#body div.footer div span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#body div.footer div p a {
+    color: #7a6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#body div {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 7px 0 57px;
+}
+
+#body div ul {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 22px;
+    width: 100%;
+}
+
+#body div ul li {
+    float: left;
+    margin: 0 10px;
+    padding: 0;
+    width: 220px;
+}
+
+#body div ul li h1 {
+    color: #E32A62;
+    font-family: magra-bold-webfont;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0;
+    padding: 87px 0 27px 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#body div ul li p {
+    color: #7A6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 0 30px;
+    text-align: left;
+    width: 190px;
+}
+
+#body div ul li p a {
+    color: #7a6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+
+/*breakfast images*/
+
+#body div ul li img {
+    display: block;
+    margin: 0 auto 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+#body div ul li h2 {
+    color: #e32a62;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*----------------------------------------footer-styles---------------------------------------*/
+
+#footer {
+    background-color: #e7e9e7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#footer div {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 50px 0 13px;
+}
+
+#footer div p {
+    color: #2c1d1d;
+    display: block;
+    font-family: roboto-regular-webfont;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+    padding: 33px 0 50px;
+    text-align: center;
+    text-transform: none
+}

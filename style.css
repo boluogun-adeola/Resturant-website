@@ -10,6 +10,7 @@ body{
 .subscription{
   
     background: url("./img/Unsplash-sm.jpg");
+    /* background-color:rgba(21,21,96, 0.8); */
     background-size: cover;
     color: #ffffff;
     padding: 1.5em;
@@ -681,4 +682,8 @@ img {
     padding: 33px 0 50px;
     text-align: center;
     text-transform: none
+}
+.blue-tint {
+  background-color: rgba(21,21,96, 0.9);
+  background-blend-mode: multiply;
 }

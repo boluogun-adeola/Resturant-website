@@ -83,7 +83,90 @@ header{
     background-image: url("img/dinner.jpg");
 
 }
-/*fastfood style*/
+/*testimonial style*/
+.parent-container{
+    display: flex;
+    width: 80%;
+    box-shadow: 0 0 20px #A9A9A9;
+    
+    margin: auto;
+    height: 20em;
+    margin-top: 3em;
+    margin-bottom:3em;
+    
+}
+.flex-child{
+    
+    justify-content: space-between;
+}
+.customer{
+    width: 60%;
+    margin-left: 1.5em;
+}
+.customer h2{
+    color: #f15a29;
+    padding-top: 1.5em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.slideshow {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .slide {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  .about{
+      margin-left:2.5em;
+      width: 30%;
+      
+  }
+.about h2{
+    color: #f15a29;
+    padding-top: 1.5em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    
+}
+.about p{
+    line-height: 1.5em;
+    padding-top: 0.5em;
+}
+
+  
 
 /* subscription and footer style*/
 .subscription{
@@ -156,7 +239,27 @@ footer{
     .icons img{
         width: 5%;
     }
-
+    .parent-container{
+        flex-direction: column;
+        width: 100%;
+        height: 35em;
+    }
+    .flex-child{
+        width: 100%;
+    }
+    .customer{
+        width: 90%;
+        margin:auto;
+    }
+    .about{
+        width: 90%;
+        margin:auto;
+    }
+    .about p{
+        width: 85%;
+        text-align: center;
+        margin-left: 0.5em;
+    }
 
 
 }

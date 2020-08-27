@@ -55,10 +55,10 @@ header{
     text-align: center;
     line-height: 2.5em;
 }
-.grid-container{
+.flex-container{
     display: flex;
 }
-.grid-items{
+.flex-items{
     width: 25%;
     height: 8em;
     text-align: center;
@@ -132,6 +132,20 @@ footer{
 
 }
 @media only screen and (max-width:600px){
+    #big-logo{
+      margin-left: 20%;  
+      width: 50%;
+      margin-top: 25%;
+    }
+    .writings{
+        font-size: 1.5em;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-items{
+        width: 100%;
+    }
     #email{
         width: 100%;
     }
@@ -142,5 +156,7 @@ footer{
     .icons img{
         width: 5%;
     }
+
+
 
 }

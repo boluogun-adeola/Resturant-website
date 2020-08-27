@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 html{
     font-size: 16px;
@@ -6,6 +9,82 @@ html{
 body{
     font-family: 'Roboto', sans-serif
 }
+/*Homepage style*/
+header{
+    background-image: url("img/landing.jpg");
+    height: 100vh;
+    background-size:cover;
+   
+}
+#hamburger{
+    position: absolute;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 1.2em;
+}
+.navbar {
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
+    padding-top: 4.5em;
+    padding-left: 2em;
+}
+.main-nav:hover{
+    color: #f15a29;
+}
+.nav-links{
+    text-decoration: none;
+    color: #ffffff;
+}
+.active {
+    display: block;
+  }
+#big-logo{
+    margin-left: 40%;
+    margin-top: 10%;
+    
+   
+   
+
+}
+.writings{
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2.5em;
+}
+.grid-container{
+    display: flex;
+}
+.grid-items{
+    width: 25%;
+    height: 8em;
+    text-align: center;
+    padding-top: 1.5em;
+    
+}
+#happy{
+    background-color: #f15a29;
+    line-height: 3em;
+    
+}
+#breakfast{
+    background-image: url("img/breakfast.jpg");
+
+    
+}
+#lunch{
+    background-image: url("img/lunch.jpg");
+    
+}
+#dinner{
+    background-image: url("img/dinner.jpg");
+
+}
+/*fastfood style*/
+
 /* subscription and footer style*/
 .subscription{
     background: url("img/subscribe.jpg");

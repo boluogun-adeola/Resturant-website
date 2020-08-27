@@ -7,11 +7,61 @@
         <meta name="Resturant" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6f76bd75c1.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!--Homepage-->
+        <main id="home">
+            <header>
+                <nav class="navbar">
+                    <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i class="fas fa-bars" id="hamburger"></i>
+                    </span>
+                    <ul class="main-nav" id="js-menu">
+                        <li>
+                            <a href="#home" class="nav-links">Home</a>
+                        </li>
+                        <li>
+                            <a href="food&drinks.html" class="nav-links">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-links">Testimonial</a>
+                        </li>
+                        <li>
+                            <a href="#subscribe" class="nav-links">Subscribe</a>
+                        </li>
+                    </ul>
+            </nav>
+            
+                <img src="img/logoBig.png" alt="resturant-logo" id="big-logo">
+                <div class="writings">
+                    <h1>We provide the best food</h1>
+                    <h2>At the right places</h2>
+                </div>
+            </header>
+            <div class="grid-container">
+                <div id="happy" class="grid-items">
+                    <h2>Happy hour</h2>
+                    <h2>Party time</h2>
+                </div>
+                <div id="breakfast" class="grid-items">
+                    <h2>Breafast</h2>
+                </div>
+                <div id="lunch" class="grid-items">
+                    <h1>Lunch</h1>
+                </div>
+                <div id="dinner" class="grid-items">
+                    <h1>Dinner</h1>
+                </div>
+               
+            </div>
+            
+        </main>
+        <!--Fastfoodsection-->
+        
        <!--subscription and footer section-->
-       <section class="subscription">
+       <section class="subscription" id="subscribe">
            <p>Get our daily food delivered into your email</p>
            <form>
                <input id="email" type="email" placeholder="Your Email">
@@ -28,6 +78,6 @@
            </div>
            <p id="menu">2016 Menu Resturant</p>
        </footer>
-        <script src="script.js" ></script>
+        <script src="js/script.js" ></script>
     </body>
 </html>

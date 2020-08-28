@@ -456,7 +456,34 @@ footer{
         text-align: center;
         margin-left: 0.5em;
     }
+    .row-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .row-child{
+      width: 100%;
+    }
+    .row-child p{
+      line-height: 1.5em;
+    }
+    .viewbtn{
+      padding-top: 3.5em;
+      
 
+    }
+    #wineglass{
+      display: block;
+    margin-left: 0.1em;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 2em;
+    
+    }
+    .drinks-updated-heading{
+      margin-top: 1.5em;
+    }
+    
 
 }
 .drinks-column-left img:hover {

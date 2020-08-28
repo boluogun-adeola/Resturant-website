@@ -8,11 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/6f76bd75c1.js" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--Homepage-->
-        <main id="home">
+        <main id="home"  >
             <header>
                 <nav class="navbar">
                     <span class="navbar-toggle" id="js-navbar-toggle">
@@ -23,7 +24,7 @@
                             <a href="#home" class="nav-links">Home</a>
                         </li>
                         <li>
-                            <a href="food&drinksTemplate.html" class="nav-links">Menu</a>
+                            <a href="#menu" class="nav-links">Menu</a>
                         </li>
                         <li>
                             <a href="#testimony" class="nav-links">Testimonial</a>
@@ -58,7 +59,84 @@
             </div>
             
         </main>
+        <!-- Fast food section-->
+        <div class="flex-container" style="margin-top: 5%;">
+            <section class="">
+                <div class="drinks-row">
+                    <div class="drinks-column-left">
+                     <img src="./img/FotoJet.jpg" class="drinks-updated-image" style="width:70%;"/>
+                     
+                    </div>
+                    <div class="drinks-column-right">
+                        <h2 class="drinks-updated-heading">
+                            Fast Food
+                        </h2>
+                        <h3 class="drinks-updated-heading2"> Delicious</h3>
+                            <p style="margin-bottom:5%">Looking for something a little special? Why not book Afternoon Tea and sample our delicious range of freshly made Finger Sandwiches and Homemade Cakes & Scones.</p>
+                            
+                           <a href="./food&drinks.html" class="btn">View Gallery
+                            <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span> 
+                        </a>
+                            
+        
+                    </div>
+                </div>
+                <div class="drinks-row">
+                    <div class="drinks-column-left">
+                        <h2 class="drinks-updated-heading" > Drinks</h2>
+                            <h3 class="drinks-updated-heading2"> Delicious</h3>
+                            <p style="margin-bottom:5%">Looking for something a little special? Why not book Afternoon Tea and sample our delicious range of freshly made Finger Sandwiches and Homemade Cakes & Scones.</p>
+                            <a   href ="./food&drinks.html" class="btn">View Gallery
+                                <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span> 
+                             </a>
+                    </div>
+                    <div class="drinks-column-right">
+                        <img src="./img/black-.jpg" class="drinks-updated-image"/>
+                    </div>
+                </div>
+              </section>
+        </div>
+      
+
         <!--Fastfoodsection-->
+        <main class="container" id="menu">
+      
+
+            <section class="">
+              <div class="drinks-row row-container">
+                  <div class="drinks-column-left row-child ">
+                   <img src="./img/FotoJet.jpg" class="drinks-updated-image" style="width:70%;"/>
+                   
+                  </div>
+                  <div class="drinks-column-right row-child">
+                      <h2 class="drinks-updated-heading">
+                          Fast Food
+                      </h2>
+                      <h3 class="drinks-updated-heading2"> Delicious</h3>
+                          <p style="margin-bottom:5%">Looking for something a little special? Why not book Afternoon Tea and sample our delicious range of freshly made Finger Sandwiches and Homemade Cakes & Scones.</p>
+                          
+                         <a href="./food&drinks.html" class="btn viewbtn">View Gallery
+                          <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span> 
+                      </a>
+                          
+      
+                  </div>
+              </div>
+              <div class="drinks-row row-container">
+                  <div class="drinks-column-left row-child">
+                      <h2 class="drinks-updated-heading" > Drinks</h2>
+                          <h3 class="drinks-updated-heading2"> Delicious</h3>
+                          <p style="margin-bottom:5%">Looking for something a little special? Why not book Afternoon Tea and sample our delicious range of freshly made Finger Sandwiches and Homemade Cakes & Scones.</p>
+                          <a   href ="./food&drinks.html" class="btn viewbtn">View Gallery
+                              <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span> 
+                           </a>
+                  </div>
+                  <div class="drinks-column-right row-child">
+                      <img src="./img/black-.jpg" class="drinks-updated-image" id="wineglass"/>
+                  </div>
+              </div>
+            </section>
+        <!--end of food and drink section-->
         <!---testimonialsection-->
         <section class="testimonial parent-container" id="testimony">
             <div class="customer flex-child">
@@ -106,5 +184,6 @@
            <p id="menu">2016 Menu Resturant</p>
        </footer>
         <script src="js/script.js" ></script>
+        <script src="./drinks.js" async defer></script>
     </body>
 </html>

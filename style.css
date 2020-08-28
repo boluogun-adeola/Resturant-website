@@ -24,6 +24,13 @@ header {
   display: none;
   padding-top: 4.5em;
   padding-left: 2em;
+
+}
+.main-nav li{
+  padding:10px 0;
+}
+.main-nav li a:hover{
+  color: #f15a29;
 }
 .main-nav:hover {
   color: #f15a29;
@@ -31,6 +38,7 @@ header {
 .nav-links {
   text-decoration: none;
   color: #ffffff;
+  padding: 5px ;
 }
 .active {
   display: block;
@@ -520,10 +528,10 @@ span.icon {
 .btn:hover {
   box-shadow: 0 0 2px 1px rgba(41, 42, 43, 0.5);
 }
-a {
+/* a {
   padding: 5% 0;
   margin: 5%;
-}
+} */
 .drinks-column-right {
   flex-grow: 1;
   flex-basis: auto;

@@ -113,7 +113,7 @@ footer {
   color: #000000;
   padding-bottom: 0.5em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #email {
     width: 100%;
   }
